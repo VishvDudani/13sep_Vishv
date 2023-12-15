@@ -1,17 +1,9 @@
 1. What is SDLC? 
-
 -> The software development lifecycle is the cost-effective and time-efficient process that development teams use to design and build high-quality software.
-
 2. Explain each phase of SDLC?
-
 -> Requirement analysis :- gathering and defining the needs and specifications of the software.
-
 -> Planning             :- estimating the resources, time, and cost of the project.
-
 -> Software design      :- creating the architectural and detailed design of the software.
-
 -> Software development :- writing and coding the software according to the design.
-
 -> Testing              :- verifying and validating the software for functionality, quality, and performance.
-
 -> Deployment           :- delivering and installing the software to the end-users.
