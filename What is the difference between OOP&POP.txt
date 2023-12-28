@@ -1,0 +1,23 @@
+// What is the difference between OOP and POP?
+
+1. OOP
+
+->Object oriented.
+->Program is divided into objects.
+->Inheritance property is used.
+->It uses access specifier.
+->Encapsulation is used to hide the data.
+->Object functions are linked through message passing.
+->Adding new data and functions is easy
+->The existing code can be reused.
+
+2. POP
+
+->Structure oriented.
+->Program is divided into .unctios
+->Inheritance doesn't allowed.
+->It doesn;t use access specifier.
+->No data hiding.
+->Parts of program are linked through parameter passing.
+->Expanding new data and functions is not easy.
+->No code reusability.

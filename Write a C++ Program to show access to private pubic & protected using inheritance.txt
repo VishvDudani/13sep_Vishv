@@ -1,0 +1,34 @@
+// Write a C++ Program to show access to Private Public and Protected using Inheritance
+
+#include <iostream>
+using namespace std;
+class base {
+private:
+  int x;
+protected:
+  int y;
+public:
+  int z;
+  void setX(int i) { x = i; }
+  int getX() { return x; }
+  void setY(int i) { y = i; }
+  int getY() { return y; }
+  void setZ(int i) { z = i; }
+  int getZ() { return z; }
+};
+class derived : public base {
+public:
+  void print() {
+    cout << "x = " << getX() << endl;
+    cout << "y = " << getY() << endl;
+    cout << "z = " << getZ() << endl;
+  }
+};
+int main() {
+  derived d;
+  d.setX(30);
+  d.setY(40);
+  d.setZ(50);
+  d.print();
+  return 0;
+}

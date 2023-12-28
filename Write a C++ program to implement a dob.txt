@@ -1,0 +1,40 @@
+// Write a C++ program to implement a class called Date that has private member variables for day, month, and year. Include member functions to set and get these variables, as well as to validate if the date is valid.
+
+
+#include <iostream>
+using namespace std;
+class date{
+    int day, month, year;
+    public:
+    date(){
+        day = month = year = 0;
+    }
+    date(int dd, int mm, int yy){
+        while(dd > 30){
+            dd -= 30;
+            mm++;
+        }
+        while(mm > 12){
+            mm -= 12;
+            yy++;
+        }
+        day = dd;
+        month = mm;
+        year = yy;
+    }
+    void display() const {
+        cout<<day<<"/"<<month<<"/"<<year<<endl;
+    }
+    date add(date first, date second) const{
+        return date(first.day + second.day, first.month + second.month, first.year + second.year);
+    }
+};
+int main(){
+    date today(10, 4, 2005), dob(10,5, 2005), empty;
+    empty = today.add(today, dob);
+    cout<<"today: "; today.display();
+    cout<<"dob: "; dob.display();
+    cout<<"today + dob: ";
+    empty.display();
+    return 0;
+}

@@ -1,0 +1,12 @@
+// What is OOP? 
+
+Object-oriented programming (OOP) is a fundamental programming paradigm used by nearly every developer at some point in their career. OOP is the most popular programming paradigm used for software development and is taught as the standard way to code for most of a programmer’s educational career.
+
+//List OOP concepts
+
+1.Class
+2.Objects
+3.Encapsulation
+4.Abstraction
+5.Polymorphism
+6.Inheritance

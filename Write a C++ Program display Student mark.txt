@@ -1,0 +1,46 @@
+// Write a C++ Program display Student Mark sheet using Multiple inheritance
+
+#include <iostream>
+using namespace std;
+class studentdetail {
+protected:
+  int rno, sum = 0, i, marks[5];
+public:
+  void detail() {
+    cout << "enter the roll no: " << endl;
+    cin >> rno;
+    cout << "enter the marks of five subjects " << endl;
+
+    for (i = 0; i < 5; i++) {
+      cin >> marks[i];
+    }
+    for (i = 0; i < 5; i++) {
+      sum = sum + marks[i];
+    }
+  }
+};
+class sportsmark {
+protected:
+  int smark;
+public:
+  void getmark() {
+    cout << "\nenter the sports mark: ";
+    cin >> smark;
+  }
+};
+class result : public studentdetail, public sportsmark {
+public:
+  void display() {
+    cout << "\nroll No: " << rno;
+    cout << "\ntotal marks: " << sum;
+    cout << "\nsports marks: " << smark;
+    cout << "\ntotal marks(with sports): " << sum + smark;
+  }
+};
+int main() {
+  result r;
+  r.detail();
+  r.getmark();
+  r.display();
+  return 0;
+}
