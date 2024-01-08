@@ -1,0 +1,5 @@
+1.What is DFD?
+
+->Data Flow Diagram (DFD) is a visual representation of how information flows through a system or process. DFDs can help you understand how a system or process works, and can help you identify problems, improve efficiency, and develop better processes.
+
+->DFDs can be drawn to represent systems at different levels of abstraction. Higher-level DFDs can be broken down into lower levels to reveal more information and functional elements.
