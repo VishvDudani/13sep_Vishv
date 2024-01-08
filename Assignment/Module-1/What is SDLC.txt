@@ -1,9 +1,16 @@
 1. What is SDLC? 
--> The software development lifecycle is the cost-effective and time-efficient process that development teams use to design and build high-quality software.
+->SDLC stands for Software Devlopment Life Cycle. It's a methodology that defines the process of designing, writing, modifying, and maintaining software.
+->SDLC is also known as the application devlopment life cycle. It's used in system engineering and software engineering to describe the process of planning, developing, testing, and deploying information systems.
+
 2. Explain each phase of SDLC?
 -> Requirement analysis :- gathering and defining the needs and specifications of the software.
+
 -> Planning             :- estimating the resources, time, and cost of the project.
+
 -> Software design      :- creating the architectural and detailed design of the software.
+
 -> Software development :- writing and coding the software according to the design.
+
 -> Testing              :- verifying and validating the software for functionality, quality, and performance.
+
 -> Deployment           :- delivering and installing the software to the end-users.
