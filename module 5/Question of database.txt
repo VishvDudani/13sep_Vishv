@@ -1,0 +1,61 @@
+1. What do you understand By Database?
+->Database is collection of structured information and records.
+->Database stores data structured and orgainzedform.
+
+2. What is Normalization?
+->Normalization is used to reduce form database.
+->A purpose of Normalizationin database is to elimate of data into proper form.
+->(a)First Normalizationin Form(1NF)
+  (b)Second Normalizationin Form(2NF)
+  (c)Third Normalizationin Form(3NF)
+  (d)Boys - Codd Normal FORM(BCNF)
+
+3. What is Difference between DBMS and RDBMS?
+
+*DBMS
+->Stands for data mangemant system.
+->It stores data as filess.
+->No relation between data.
+->Less secure.
+->Data fetching is slower.
+
+*RDBMS
+->Stands for relational database mangemant system.
+->It stores data in tabular form.
+->Data store in tabluar form which are related to each other.
+->It secure then DBMS.
+->Data fetching is faster.
+
+4. What is MF Cod Rule of RDBMS Systems?
+->Foundation rule
+->Information rule
+->Guaranteed access rule
+->Systematic Treatment of null values
+->Active/Dynamic online catalog based on the relational model
+->comparesive data sublangauge rule
+->View updating rule
+->Relational level Operation rule
+
+5. What do you understand By Data Redundancy?
+->Sometimes it is done on purpose for recovery or backup data,fasteer access data,uploding easily.
+
+6. What is DDL Interpreter?
+->Data Defination Langauge.
+->A set of sql command to change the structure of table.
+->Quaries-alter,create,drop,truncate
+
+7. What is DML Compiler in SQL?
+->Data Manupaltion Langauge.
+->It is set of sql command to change the data of table.
+->Quaries-insert,update,delete
+
+8. What is SQL Key Constraints writing an Example of SQL Key Constraints?
+->Primer key ,Foreign key ,Unique Key
+
+9. What is save Point? How to create a save Point write a Query?
+->It marks and save the current point in the processing of a transaction.
+->Syntax:- savepoint savepoint_name
+
+10.What is trigger and how to create a Trigger in SQL?
+->It is occurs when data has been inserted, updated or deleted.
+->Trigger is a collection of sql statements that are stored in system memor	y.
