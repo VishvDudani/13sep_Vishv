@@ -4,6 +4,8 @@
 2.What are tags and attributes in HTML?
 ->Tags: Usally tags are considered as starting and closing statements in html.<html></html>
 ->Attributes: attributes provides additional information about elements.Attributes are always specified in starting tag.
+-> <a href="link">abc</a>
+-> <img src="link">
 
 3.What are void elements in HTML? With Example.
 ->A elements that close by itself and can not allow to write any content in this tag.
