@@ -1,5 +1,8 @@
 1.Are the HTML tags and elements the same thing?
-->No
+->No, HTML tags and elements are not the same thing.
+->HTML tags are the beginning and ending points of an HTML document
+->HTML elements are made up of the start tag, content tag, and end tag. For example, <p>This is the content</p> is an HTML element.
+->HTML Tags are building blocks of HTML Page. HTML Elements are components that are used in HTML Page.
 
 2.What are tags and attributes in HTML?
 ->Tags: Usally tags are considered as starting and closing statements in html.<html></html>
