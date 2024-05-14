@@ -1,0 +1,97 @@
+1.What are the benefits of using CSS?
+->Responsive Design,Ease of Maintenance,Accessibility,Print-Friendly Pages,Global Styling.
+
+2.What are the disadvantages of CSS?
+->Lack of Security,Limited Layout Control,Performance Impact,Overriding Styles,Maintenance Challenges.
+
+3.What is the difference between CSS2 and CSS3?
+->CSS2 introduced a new box model which included padding, borders, and margins.
+->CSS3 introduced the flexible box layout module, which allows for more flexible layouts.
+
+4.Name a few CSS style components?
+->Inline,Selector,CSS Border,External,Attribute,Margin,Padding
+
+5.What do you understand by CSS opacity?
+->The opacity CSS property sets the opacity of an element. 
+->Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+6.How can the background color of an element be changed?
+->The background-color property of CSS is used to set the background of an element. 
+->We can set background color by selecting the element by its class name of id name and then apply the background-color property on it to set the background color.
+
+7.How can image repetition of the backup be controlled?
+->The backgrond repet property in css is used to repet the background images both horizonatally and vertically.
+->It also decides whether the background image will be rpeted or not repet.
+->background-repeat: repeat,repeat-x,repeat-y,no-repeat,initial,inherit.
+
+8.What is the use of the background-position property?
+->It is sets the initial position for each background image.
+->element{
+	background-image : url(‘xyz.jpg’);
+	background-position : center;
+	}
+
+9.Which property controls the image scroll in the background?
+->background-attachment property used to control the image scroll in background.sel
+->element{
+	background-attachment : fixed;	
+	}
+->scroll : background image scroll with page. By default.
+->local : background image scroll with the element’s content.
+
+10.Why should background and color be used as separate properties?
+->The main difference between background and background-color is we can set image in background, but we can’t set image in background-color.It is only set bg color.
+
+11.How to center block elements using CSS1?
+->we use ‘text-align: center’ property to center a block element.
+
+12.How to maintain the CSS specifications?
+->There are some CSS specifications.
+->Use clear and consistent name for classes and IDs.
+->Implement responsive design to your website for the various of screens and devices.
+->syntax : selector{property : value;}
+
+13.What are the ways to integrate CSS as a web page?
+-> a. inline css:
+            -> inline css used within tag.
+
+-> b. intrnal tag:
+            ->Internal CSS used within the head tag in the same file.
+
+-> c. External CSS :
+
+            ->External CSS is used as a separated file of css extenstion.
+
+14.What is embedded style sheets?
+->Embedded style sheet known as internal style sheet.
+->It’s define within the <head> tag.
+
+15.What are the external style sheets?
+->This file takes .css extension.
+->External style sheet is a separate file from the HTML file.
+-><link rel="stylesheet" href="abc.css">
+
+16.What are the advantages and disadvantages of using external style sheets?
+->Advantages :
+	->With the help of external style sheet, we can implement the css file in the multiple HTML file
+	->You can make changes quickly to fonts, colors etc.
+
+->Disadvantage:
+	->If the external css file fails to load, the styling of your web page may break.
+	->Modern browser generally supports external CSS files without any issues but some older browsers may have limitations.
+
+17.What is the meaning of the CSS selector?
+->CSS selector used to select the elements you want to style.
+->CSS selectors select HTML elements according to its id, class etc.
+->id selector(#sign)
+->element selector(tag name)
+->group selector(,sign)
+->the many other selector adjacent sibling selector general silbling selector etc.
+
+18.What are the media types allowed by CSS?
+->The media rule, introduced in CSS2, made it possible to define different style rules for different media types.
+->value : max-height,min-height,height,max-width,min-width,width
+
+19. What is the rule set?
+->A CSS ruleset is various affirmations to various pieces or elements of the document. 
+->a particular arrangement of components in the connected html page.

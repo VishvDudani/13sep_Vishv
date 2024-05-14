@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body {
+  overflow: hidden;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: end;
+  gap: 40px;
+  padding: 100px;
+  background-color: rgb(31, 31, 31);
+  position: relative;
+}
+
+.content h1 {
+  padding: 0 20px 0 0;
+  position: relative;
+  color: #f4f5f9;
+  margin: 15px 0;
+}
+
+.content h1::after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background-color: #e74c3c;
+}
+
+.content .service-card h3 {
+  color: #e74c3c;
+  margin: 0 0 10px 0;
+}
+
+.content .service-card p {
+  color: #999999;
+  font-size: 0.8rem;
+  line-height: 30px;
+}
+
+.thumbnail {
+  width: 45%;
+  height: 100%;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+}
+
+.content img {
+  position: absolute;
+}
+
+.content .icons img:nth-child(1) {
+  top: 270px;
+  right: -35px;
+}
+
+.content .icons img:nth-child(2) {
+  top: 405px;
+  right: -35px;
+}
+
+.content .icons img:nth-child(3) {
+  top: 545px;
+  right: -35px;
+}
+</style>
+<body>
+    <section class="service">
+        <div class="content">
+            <div class="icons">
+                <img src="D:\vishv 1\CSS\Our Services\Down Icon copy 2.svg" alt="">
+                <img src="D:\vishv 1\CSS\Our Services\Down Icon copy 3.svg" alt="">
+                <img src="D:\vishv 1\CSS\Our Services\Down Icon copy.svg" alt="">
+            </div>
+            <h1>OUR SERVICES</h1>
+            <div class="service-card">
+                <h3>WEB DESIGN</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum has been the
+                    industry's standard dummy text ever.</p>
+            </div>
+            <div class="service-card">
+                <h3>PRINT DESIGN</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ip sum has been the industry's standard dummy text ever.</p>
+            </div>
+            <div class="service-card">
+                <h3>PHOTOGRAPHY</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum has been the
+                    industry's standard dummy text ever.</p>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <img src="D:\vishv 1\CSS\Our Services\Image.png" alt="">
+        </div>
+
+    </section>
+</body>
+
+</html>
