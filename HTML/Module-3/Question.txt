@@ -40,9 +40,13 @@
 
 6.What is the ‘class’ attribute in HTML? With Example
 ->The class attribute specifies one or more classnames for an element.The class attribute is mostly used to point to a class in a style sheet.
+->EX:- <h1 class="text">hello<h1>
 
 7.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements? With Example.
 ->In HTML, the id attribute identifies a unique element, while the class attribute identifies a group of elements.A id must be unique on a page, while a class can be used multiple times on a page.
+->EX:- <h1 id="main text">hello <h1>
+	<p class="sub text">hii</p>
+	<p class="sub text">hii</p>
 
 8.What are the various formatting tags in HTML?
 ->Bold text,italic text,underline text,strong text,supercript text,smaller text,subscript text,larger text
